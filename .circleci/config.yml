@@ -11,5 +11,5 @@ jobs:
       - image: sudipta007/mypythonapp:v2
     steps:
     - checkout
-      
+    - run: python --version
      
