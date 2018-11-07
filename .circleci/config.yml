@@ -11,6 +11,5 @@ jobs:
       - image: sudipta007/mypythonapp:v2
     steps:
     - checkout
-    - run: curl localhost:80 | grep "hostname"
       
      
